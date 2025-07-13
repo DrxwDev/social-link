@@ -6,7 +6,7 @@ const links = ["GitHub", "Frontend Mentor", "LinkedIn", "Twitter", "Instagram"];
 
 export default function Card() {
   return (
-    <article className="w-[21rem] max-w-md sm:w-[25rem] sm:max-w-xl bg-[var(--customGrey800)] p-6 sm:p-9  rounded-xl flex flex-col items-center justify-center">
+    <article className="w-[21rem] max-w-md sm:w-[25rem] sm:max-w-xl bg-[var(--customGrey800)] p-6 sm:px-9 sm:py-10  rounded-xl flex flex-col items-center justify-center">
       <div>
         <CardImage
           src="/jessica.jpeg"
